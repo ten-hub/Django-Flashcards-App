@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+# Connect the 'cards' app to the 'flashcards' project
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "cards.apps.CardsConfig",
+
 ]
 
 MIDDLEWARE = [
